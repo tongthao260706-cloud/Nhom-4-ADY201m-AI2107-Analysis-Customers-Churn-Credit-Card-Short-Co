@@ -1,13 +1,16 @@
-# 📊 Credit Card Customer Churn Analysis & Prediction (ADY201m)
+# 📊 Nhóm 4 - ADY201m - AI2107: Analysis Customers Churn - Credit Card - Short Co
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![SQL Server](https://img.shields.io/badge/Database-T--SQL%20%2F%20SQL%20Server-red.svg)](https://www.microsoft.com/sql-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Project%20Status-SQL%20Exploration%20Completed-brightgreen.svg)]()
 
-> **Dự án:** Phân Tích & Dự Đoán Hành Vi Rời Bỏ Dịch Vụ Thẻ Tín Dụng  
+> **Nhóm:** Nhóm 4  
+> **Lớp:** AI2107  
 > **Mã môn học:** ADY201m - Advanced Data Analytics  
+> **Đề tài:** Analysis Customers Churn - Credit Card - Short Co  
 > **Nền tảng quản lý mã nguồn:** GitHub Collaboration & Version Control  
+
 
 ---
 

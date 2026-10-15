@@ -73,8 +73,8 @@ Ngân hàng đang đối mặt với bài toán sụt giảm số lượng chủ
 
 | STT | Họ và Tên | Vai trò chính | Nhiệm vụ chi tiết được giao & Đóng góp |
 | :---: | :--- | :--- | :--- |
-| 1 | **Tống Việt Thảo** *(Leader)* | **Project Lead & Data Architecture** | • Khởi tạo và quản lý kho lưu trữ GitHub, thiết lập phân nhánh và luồng làm việc Git.<br>• Xây dựng cấu trúc dự án chuẩn (`data/`, `src/`, `reports/`).<br>• Thiết lập quy chuẩn tài liệu (`README.md`, `.gitignore`).<br>• Thu thập, kiểm tra tính toàn vẹn của tệp dữ liệu thô ban đầu.<br>• Điều phối tiến độ nhóm và tổng hợp báo cáo. |
-| 2 | **Nguyễn Văn Kiên** | **Data Cleaning & Preprocessing Specialist** | • Thực hiện quy trình kiểm toán dữ liệu (Data Audit) trên Jupyter Notebook (`data_clean.ipynb`).<br>• Xử lý triệt để 2 cột Naive Bayes dư thừa.<br>• Phân tích và quản lý giá trị `Unknown` trong các biến danh mục.<br>• Chuẩn hóa kiểu dữ liệu số thực/số nguyên và xuất tệp dữ liệu sạch `BankChurners_clean.csv`. |
+| 1 | **Nguyễn Văn Kiên** *(Leader)* | **Team Leader & Data Cleaning Specialist** | • Điều phối tổng thể dự án, phân công và giám sát tiến độ các thành viên.<br>• Phụ trách toàn diện quy trình kiểm toán dữ liệu (Data Audit) trên Jupyter Notebook (`data_clean.ipynb`).<br>• Xử lý triệt để 2 cột Naive Bayes dư thừa và phân tích giá trị `Unknown` trong các biến danh mục.<br>• Chuẩn hóa kiểu dữ liệu số thực/số nguyên và xuất tệp dữ liệu sạch `BankChurners_clean.csv`. |
+| 2 | **Tống Việt Thảo** | **Data Architecture & GitHub Manager** | • Khởi tạo và quản lý kho lưu trữ GitHub, thiết lập phân nhánh và luồng làm việc Git.<br>• Xây dựng cấu trúc dự án chuẩn (`data/`, `src/`, `reports/`).<br>• Thiết lập quy chuẩn tài liệu (`README.md`, `.gitignore`).<br>• Thu thập, kiểm tra tính toàn vẹn của tệp dữ liệu thô ban đầu.<br>• Trích xuất bộ hình ảnh trực quan hóa vào `reports/figures/` và hỗ trợ tổng hợp báo cáo. |
 | 3 | **Nguyễn Anh Tới** | **Database & SQL Engineer** | • Thiết kế lược đồ cơ sở dữ liệu quan hệ chuẩn hóa trong SQL Server.<br>• Viết kịch bản T-SQL `taidulieu.sql` khởi tạo bảng `Customers` và `Card_Activity` liên kết khóa ngoại.<br>• Chuyển đổi và nạp 10.127 bản ghi từ bảng Staging sang hệ thống bảng quan hệ.<br>• Kiểm tra tính toàn vẹn dữ liệu (Data Integrity) và khóa chính/ngoại. |
 | 4 | **Nguyễn Xuân Đạo** | **SQL Data Analyst & Churn Modeler** | • Xây dựng bộ truy vấn T-SQL chuyên sâu (`khaiphadulieu.sql`) giải quyết các câu hỏi kinh doanh Q0 - Q4.<br>• Phân tích thống kê mô tả (Mean, Median với `PERCENTILE_CONT`, Min, Max) giữa nhóm Churn và Non-Churn.<br>• Khảo sát tính phi tuyến của biến `Total_Trans_Ct` và kiểm định phân tầng (Z-score, tương tác giới tính).<br>• Thiết kế mô hình chấm điểm rủi ro `Risk_Score` đo lường Precision, Recall và Lift. |
 
@@ -84,7 +84,7 @@ Ngân hàng đang đối mặt với bài toán sụt giảm số lượng chủ
 Kho lưu trữ được tổ chức theo tiêu chuẩn quản lý dự án khoa học dữ liệu hiện đại, phân tách rõ ràng giữa dữ liệu, mã nguồn và báo cáo:
 
 ```text
-ADY201m-BankChurn-Analysis/
+Nhom-4-ADY201m-AI2107-Analysis-Customers-Churn-Credit-Card-Short-Co/
 │
 ├── .gitignore                          # Cấu hình bỏ qua tệp tạm, cache, checkpoints
 ├── README.md                           # Tài liệu tổng quan dự án và minh chứng đóng góp
